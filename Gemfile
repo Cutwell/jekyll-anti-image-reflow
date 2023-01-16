@@ -7,5 +7,5 @@ gemspec
 
 gem "rake", "~> 13.0"
 gem 'jekyll', '~> 4.3', '>= 4.3.1'
-gem 'nokogiri', '~> 1.12', '>= 1.12.4'
-gem 'fastimage', '~> 2.2', '>= 2.2.5'
+gem 'nokogiri', '~> 1.14', '>= 1.14.0'
+gem 'fastimage', '~> 2.2', '>= 2.2.6'

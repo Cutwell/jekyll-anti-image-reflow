@@ -23,8 +23,8 @@ Gem::Specification.new do |spec|
 
   spec.platform = Gem::Platform::RUBY
   spec.add_runtime_dependency "jekyll", "~> 4.3"
-  spec.add_runtime_dependency "nokogiri", '~> 1.12'
-  spec.add_runtime_dependency "fastimage", '~> 2.2'
+  spec.add_runtime_dependency "nokogiri", '~> 1.14'
+  spec.add_runtime_dependency "fastimage", '~> 2.2.6'
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
