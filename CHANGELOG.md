@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.1.3] - 2023-01-16
+
+- bug fixes
+
 ## [0.1.2] - 2023-01-16
 
 - Updated dependencies

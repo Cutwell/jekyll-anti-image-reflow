@@ -29,8 +29,8 @@ module Jekyll
                 # add height and width attributes
                 if tag.name == "img"
                     path = File.join(Dir.pwd, tag["src"])
-                    # check if file exists
-                    if File.exist?(path)
+                    # check file is not directory
+                    if File.file?(path)
                         size = FastImage.size(path)
                         tag["width"] = size[0] unless tag["width"] || size.nil?
                         tag["height"] = size[1] unless tag["height"] || size.nil?
