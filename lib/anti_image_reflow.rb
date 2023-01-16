@@ -28,7 +28,10 @@ module Jekyll
             tags.each do |tag|
                 # add height and width attributes
                 if tag.name == "img"
-                    path = File.join(Rails.root, tag["src"])
+                    # get path relative to root
+                    path = File.join(Dir.pwd, tag["src"])
+                    # print path
+                    puts path
                     size = FastImage.size(path)
                     tag["width"] = size[0] unless tag["width"] || size.nil?
                     tag["height"] = size[1] unless tag["height"] || size.nil?
